@@ -27,7 +27,7 @@ a {
   color: inherit;
 }
 
-
+/* 🔹 Full-Width Navigation Bar */
 nav {
   width: 100%;
   background: #1f1f1f;
@@ -69,7 +69,7 @@ nav ul li a:hover {
   color: #ffcc00;
 }
 
-
+/* 🔹 Main Content Layout */
 .container {
   max-width: 800px;
   margin: 80px auto 20px; /* Adds space below fixed navbar */
@@ -116,6 +116,7 @@ video {
   box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
 }
 
+
 .button {
   display: inline-block;
   background: #ffcc00;
@@ -133,7 +134,7 @@ video {
   transform: scale(1.05);
 }
 
-/* 🔹 Footer */
+
 footer {
   text-align: center;
   padding: 1rem;
