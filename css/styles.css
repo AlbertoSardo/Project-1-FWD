@@ -7,11 +7,13 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, ul {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 ul {
@@ -68,18 +70,18 @@ nav ul li a:hover {
 }
 
 body {
-  padding-top: 130px;
+  padding-top: 90px;
 }
 
 .container {
   max-width: 900px;
   margin: auto;
   padding: 60px 20px;
+  text-align: center;
 }
 
 h1 {
   font-size: 3rem;
-  text-align: center;
   color: #ffcc00;
   margin-bottom: 1rem;
 }
@@ -88,14 +90,25 @@ h2 {
   font-size: 2rem;
   color: #e0e0e0;
   margin-top: 30px;
-  text-align: center;
 }
 
 p {
   font-size: 1.2rem;
   color: #bdbdbd;
-  text-align: center;
   margin-bottom: 1.5rem;
+}
+
+ul li {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  padding: 10px;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+ul li:hover {
+  font-size: 1.4rem;
+  transform: scale(1.1);
 }
 
 img {
@@ -170,3 +183,4 @@ footer {
     width: 95%;
   }
 }
+
